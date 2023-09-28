@@ -1,0 +1,68 @@
+html {
+    /* Set default box-sizing to border-box for easier sizing of elements */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    /* Make box-sizing property easy to change by components if required */
+    box-sizing: inherit;
+}
+
+body{
+    /*background-color: black;*/
+    /*padding: 0;
+    margin: 0;*/
+}
+
+#nombre{
+    position: absolute;
+    bottom: 93px;
+    left: 200px;      
+    height: 50px;      
+    background: #29539b linear-gradient(180deg, #4d83df 0%, #1b438d 74%);
+	color: white;
+    font-size: 32px;      
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 5px;
+    padding-right : 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-color: #cdcfd1;
+    border-style: ridge;
+    border-radius: 8px;
+
+
+    transition-duration: 2000ms;
+    transition-property: transform;
+
+    transform: translateX(-1200px);
+}
+
+#cargo{
+    position: absolute;
+    bottom: 50px;
+    left: 200px;      
+    height: 43px;      
+    background: #29539b linear-gradient(180deg, #e5e9eb 0%, #8c8e8f 74%);
+	color: rgb(0, 0, 0);
+    font-size: 24px;      
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    text-align: left;
+    padding-top: 5px;
+    padding-right : 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-color: #02080f;
+    border-style:ridge; 
+    border-radius: 5px;
+	
+	
+
+    transition-duration: 2000ms;
+    transition-property: transform;
+
+    transform: translateX(-1200px);
+}

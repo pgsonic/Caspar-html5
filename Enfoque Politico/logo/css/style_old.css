@@ -1,0 +1,55 @@
+html {
+    /* Set default box-sizing to border-box for easier sizing of elements */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+*, *:before, *:after {
+    /* Make box-sizing property easy to change by components if required */
+    box-sizing: inherit;
+}
+
+
+#contenedor{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    /*right: -730px;*/
+    /* background-image: url('./img/EP\ ref.PNG'); 
+    background-size: cover;   */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#logo{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    bottom: -49px;
+    left: 21px;
+    background-image: url('./img/ENFOQUE.gif');
+    background-size: cover;  
+    /* animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+    /*right: 120px;          
+    /* transition-duration: 2000ms;
+    transition-property: transform;
+    transform: translateX(-120px); */
+}

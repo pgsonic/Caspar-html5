@@ -1,0 +1,54 @@
+html {
+    /* Set default box-sizing to border-box for easier sizing of elements */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+*, *:before, *:after {
+    /* Make box-sizing property easy to change by components if required */
+    box-sizing: inherit;
+}
+
+
+
+#contenedor{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    /* background-image: url('../img/EP\ ref.PNG');
+    background-size: cover;  */
+} 
+
+#volanta{
+    color: var(--volanta-fuente-color);
+    font-size: var(--volanta-fuente-alto);
+    padding-left: 102px;
+    padding-right: 50px;
+    position: absolute;
+    /* width: 1220px; */
+    height: 44px;
+    /* right: 520px; */
+    left: 180px;
+    bottom: 209px;
+    background-color: rgb(153, 0, 0,1);
+    transform: skew(-30deg);
+}
+
+#zocalo{
+    color: var(--zocalo-fuente-color);
+    font-size: var(--zocalo-fuente-alto);
+    padding-left: 287px;
+    --zoc-color: linear-gradient(
+        to bottom,
+        grey 0%,
+        black 100%
+    );
+    position: absolute;
+    left: -10px;
+    height: 110px;
+    width: 100%;
+    bottom: 100px;
+    background: var(--zoc-color) ;
+    opacity: .6;
+}
+

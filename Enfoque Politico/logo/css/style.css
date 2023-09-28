@@ -1,0 +1,60 @@
+html {
+    /* Set default box-sizing to border-box for easier sizing of elements */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+*, *:before, *:after {
+    /* Make box-sizing property easy to change by components if required */
+    box-sizing: inherit;
+}
+
+#contenedor{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    /* background-image: url('../img/EP\ ref.PNG');
+    background-size: cover;  */
+}
+
+#zocalo{
+    --zoc-color: linear-gradient(
+        to bottom,
+        grey 0%,
+        black 100%
+    );
+    position: absolute;
+    height: 110px;
+    width: 100%;
+    bottom: 100px;
+    background: var(--zoc-color) ;
+    opacity: .6;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#logo{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    bottom: 37px;
+    left: 12px;
+    background-image: url('../img/ENFOQUE.gif');
+    background-size: cover;  
+}
