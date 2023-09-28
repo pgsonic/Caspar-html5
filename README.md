@@ -1,5 +1,5 @@
 # Caspar Html5 Templates
-#### Html Templates for CasparCG Server to facilitate institutional and program relates graph overlay for TV channel transmissions.
+#### Html Templates for CasparCG Server to facilitate institutional and program related graph overlay for TV channel transmissions.
 --------
 
 ## Technologies Used
